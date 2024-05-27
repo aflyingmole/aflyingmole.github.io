@@ -3,6 +3,15 @@
 search: false
 ---
 
+<pre class="prettyprint">
+class Voila {
+    public:
+        // Voila
+        static const string VOILA = "Voila";
+
+        // will not interfere with embedded <a href="#voila2">tags</a>.
+}
+</pre>
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
